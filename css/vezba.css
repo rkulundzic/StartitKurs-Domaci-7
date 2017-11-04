@@ -1,0 +1,469 @@
+/*
+01.General
+02.Header
+03.Main
+04.Footer
+*/
+
+/*01.General*/
+
+*{
+	box-sizing: border-box;
+	background: #18191c;
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+a{
+	text-decoration: none;
+	color: #2c2c37;
+}
+
+ul{
+	list-style: none;
+}
+
+/*02.Header*/
+
+.head-container{
+	max-width: 100%;
+	height: 100px;
+	margin: 0 15px;
+}
+
+.logo img{
+	display: inline-block;
+	float: left;
+	height: 36px;
+	width: auto;
+	margin-top: 10px;
+}
+
+nav ul{
+	height: 45px;
+	display: inline-block;
+	float: left;
+	background: transparent;
+	margin-left: -20px;
+}
+
+nav ul li{
+
+	display: inline-block;
+	padding: 0 8px;
+	vertical-align: center;
+}
+
+nav ul li a{
+	font-family: Whitney,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
+	font-size: 13px;
+	color: #aeaeae;
+	vertical-align: bottom;
+}
+
+nav ul li a:hover{
+	color: #fff;
+}
+
+.follow ul{
+	height: 45px;
+	display: inline-block;
+	float: right;
+}
+
+.follow ul li{
+	display: inline-block;
+	padding: 0 10px;
+}
+
+.follow ul li span{
+	font-size: 20px !important;
+	color: #aeaeae;
+	vertical-align: center;
+}
+
+.follow ul li a span:hover{
+	color: #fff;
+}
+
+.login{
+	color: #aeaeae;
+	text-align: center;
+	padding: 5px 17px;
+	border: 2px solid #aeaeae;
+	border-radius: 20px;
+}
+
+/*02.Main*/
+
+.main-content{
+	max-width: 80%;
+	height: auto;
+	margin: 0 auto;
+	font-family: Whitney,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
+}
+
+h1{
+	text-align: center;
+	font-size: 34px;
+	font-weight: 700;
+	line-height: 44px;
+	margin-top: 50px;
+	margin-bottom: 0px;
+	color: #fff;
+}
+
+.main p{
+	text-align: center;
+	font-size: 16px;
+	color: #aeaeae;
+	margin-top: 20px;
+}
+
+.download{
+	display: block;
+	margin: 30px auto;
+	width: 250px;
+	height: 40px;
+	text-align: center;
+	background-color: #fff;
+	border-radius: 5px;
+	overflow: hidden;
+}
+
+.download a{
+	display: block;
+	text-align: center;
+	font-weight: 400;
+	font-size: 14px;
+	color: black;
+	background: transparent;
+	padding-top: 12px;
+}
+
+.slike img{
+	background: transparent;
+}
+
+#x{
+	position: absolute;
+	top: 440px;
+	left: calc(50% - 579px);
+	opacity: 0.3;
+}
+
+#x1{
+	position: absolute;
+	top: 725px;
+	left: calc(50% + 540px);
+	opacity: 0.3;
+}
+
+#krug{
+	position: absolute;
+	top: 409px;
+	left: calc(50% - 359px);
+	opacity: 0.3;
+}
+
+#krug1{
+	position: absolute;
+	top: 657px;
+	left: calc(50% + 576px);
+	opacity: 0.3;
+}
+
+#kvadrat{
+	position: absolute;
+	top: 326px;
+	left: calc(50% + 331px);
+	opacity: 0.3;
+}
+
+#kvadrat1{
+	position: absolute;
+	top: 540px;
+	left: calc(50% + 431px);
+	opacity: 0.3;
+}
+
+#trougao{
+	position: absolute;
+	top: 640px;
+	left: calc(50% - 579px);
+	opacity: 0.3;
+}
+
+#trougao1{
+	position: absolute;
+	top: 390px;
+	left: calc(50% + 31px);
+	opacity: 0.3;
+}
+
+#tacka{
+	position: absolute;
+	top: 740px;
+	left: calc(50% - 599px);
+	opacity: 0.3;
+}
+
+#tacka1{
+	position: absolute;
+	top: 340px;
+	left: calc(50% - 319px);
+	opacity: 0.3;
+}
+
+#tacka2{
+	position: absolute;
+	top: 440px;
+	left: calc(50% + 181px);
+	opacity: 0.3;
+}
+
+#tacka3{
+	position: absolute;
+	top: 325px;
+	left: calc(50% + 531px);
+	opacity: 0.3;
+}
+
+#tacka4{
+	position: absolute;
+	top: 805px;
+	left: calc(50% + 621px);
+	opacity: 0.3;
+}
+
+#nulta{
+	position: absolute;
+	top: 500px;
+	left: calc(50% + 250px);
+	animation-name: example-nulta;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+
+#nulta1{
+	position: absolute;
+	top: 430px;
+	left: calc(50% - 239px);
+}
+
+#prva{
+	position: absolute;
+	top: 500px;
+	left: calc(50% - 289.5px);
+}
+
+#druga{
+	position: absolute;
+	top: 767px;
+	left: calc(50% - 609px);
+}
+
+#treca{
+	position: absolute;
+	top: 713px;
+	left: calc(50% - 548px);
+}
+
+#cetvrta{
+	position: absolute;
+	top: 719px;
+	left: calc(50% - 401.5px);
+}
+
+#peta{
+	position: absolute;
+	top: 861px;
+	left: calc(50% - 255px);
+}
+
+#sesta{
+	position: absolute;
+	top: 620px;
+	left: calc(50% - 4px);
+}
+
+#sesta0{
+	position: absolute;
+	top: 867px;
+	left: calc(50% + 423px);
+}
+
+#sedma{
+	position: absolute;
+	top: 604px;
+	height: 200px;
+	left: calc(50% + 280px);
+}
+
+#osma{
+	position: absolute;
+	top: 569px;
+	left: calc(50% - 481px);
+	animation-name: example-deveta;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+
+#deveta{
+	position: absolute;
+	top: 605px;
+	left: calc(50% - 428px);
+	animation-name: example-osma;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+
+}
+
+#duplikat{
+	position: absolute;
+	top: 365px;
+	left: calc(50% + 80px);
+	animation-name: example;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+
+.learn-more{
+	display: block;
+	position: absolute;
+	top: 1000px;
+	left: calc(50% - 99px);
+	margin: 40px auto;
+	width: 200px;
+	height: 45px;
+	text-align: center;
+	background-color: #fff;
+	border-radius: 5px;
+	overflow: hidden;
+	background:transparent;
+	border: 1px solid white;
+	border-radius: 5px;
+}
+
+.learn-more a{
+	display: block;
+	padding-top: 12px;
+	background: transparent;
+	font-size: 14px;
+	color: #fff;
+}
+
+/*04.Footer*/
+
+footer{
+	margin-top: 800px;
+    color: #fff;
+    width: 100%;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.foot-content, .foot-content1{
+	max-width: 1200px;
+	margin: 15px auto;
+	text-align: justify;
+	font-family: Whitney,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
+}
+
+.foot-content1{
+	padding-top: 10px;
+	border-top: 0.5px solid #303338;
+}
+
+.foot-list{
+	display: inline-block;
+	width: 100px;
+	height: 150px;
+	vertical-align: top;
+
+	font-size: 14px;
+}
+
+.foot-list:nth-child(n+2){
+	margin-left: 8.5%;
+}
+
+.foot-list img{
+	display: block;
+	height: 36px;
+	margin-top: 18px;
+}
+
+.foot-list h3{
+	font-weight: lighter;
+	font-size: 14px;
+}
+
+.foot-list span{
+	display: block;
+	line-height: 20px;
+	font-size: 13px;
+	color: #aeaeae;
+
+}
+
+.foot-content1 h2{
+	font-size: 26px;
+	font-weight: 300;
+	margin-bottom: 0;
+}
+
+.foot-content1 p{
+	font-size: 14px;
+	margin-top: 4px;
+	color: #aeaeae;
+}
+
+.sign-up{
+	text-align: center;
+	width: 120px;
+	height: 47px;
+	background: #7289da;
+	border-radius: 3px;
+	position: relative;
+	top: -65px;
+	float: right;
+}
+
+.sign-up a{
+	display: block;
+	padding-top: 15px;
+	font-size: 14px;
+	color: #fff;
+	background: transparent;
+
+}
+
+/*animation code*/
+
+@keyframes example {
+	0% {left: calc(50% + 80px); top: 365;}
+	50% {left: calc(50% + 80px); top: 350px;}
+	100% {left: calc(50% + 80px); top: 365px;}
+}
+
+@keyframes example-osma {
+	0% {left: calc(50% - 428px); top: 605px;}
+	50% {left: calc(50% - 428px); top: 590px;}
+	100% {left: calc(50% - 428px); top: 605px;}
+}
+
+@keyframes example-deveta {
+	0% {left: calc(50% - 481px); top: 569px;}
+	50% {left: calc(50% - 481px); top: 554px;}
+	100% {left: calc(50% - 481px); top: 569px;}
+}
+
+@keyframes example-nulta {
+	0% {left: calc(50% + 250px); top: 500px;}
+	50% {left: calc(50% + 250px); top: 485px;}
+	100% {left: calc(50% + 250px); top: 500px;}
+}
